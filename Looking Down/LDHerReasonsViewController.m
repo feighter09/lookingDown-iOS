@@ -71,6 +71,7 @@ static Cell *blankCell = nil;
   [cell.cellTitle setText:[[_reasons objectAtIndex:indexPath.row] objectForKey:@"text"]];
   [cell setDescription:[[_reasons objectAtIndex:indexPath.row] objectForKey:@"longText"]];
   
+  [cell setBackgroundColor:[UIColor clearColor]];
   [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
   
   return cell;

@@ -29,6 +29,8 @@ static Cell *blankCell = nil;
   _selectedCell = [[[NSBundle mainBundle] loadNibNamed:@"ExpandingCell" owner:self options:nil] objectAtIndex:0];
   blankCell = _selectedCell;
   [blankCell setIndex:-1];
+  
+  [self.tabBarController.view setBackgroundColor:[UIColor clearColor]];
 }
 
 - (IBAction)refresh:(id)sender {
@@ -70,6 +72,8 @@ static Cell *blankCell = nil;
   [cell.cellTitle setText:[[_reasons objectAtIndex:indexPath.row] objectForKey:@"text"]];
   [cell setDescription:[[_reasons objectAtIndex:indexPath.row] objectForKey:@"longText"]];
   
+//  [cell setBackgroundColor:[UIColor clearColor]];
+  cell.backgroundColor = [UIColor clearColor];
   [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
   
   return cell;

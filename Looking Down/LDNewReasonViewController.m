@@ -48,12 +48,14 @@
 
 - (IBAction)cancel:(id)sender {
   [self dismissViewControllerAnimated:YES completion:nil];
+  [self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark - Alert handling
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
   if ([[alertView title] isEqualToString:@"Success!"]) {
+    [self.navigationController popViewControllerAnimated:YES];
     [self dismissViewControllerAnimated:YES completion:nil];
   }
 }

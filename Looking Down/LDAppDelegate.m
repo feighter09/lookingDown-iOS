@@ -14,8 +14,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-  [Parse setApplicationId:@"JTeN6P0AlreKF6pmi8G4TBnHpH5N25WMRLcmNlg4"
-                clientKey:@"sAGC53pRcBjfGysAJU8tlM9m5QBxc6UhT4uMow71"];
+  [Parse setApplicationId:@"LNZbj0mG9g5xghratiyhZW6khIaMa6e2KT94Mrj0"
+                clientKey:@"lIQl6r7pZEKVvZwkxbXGvLpEMXRCTQrtJZ7bc2uC"];
+  [self.window setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"pink+blue_background.png"]]];
     return YES;
 }
 							

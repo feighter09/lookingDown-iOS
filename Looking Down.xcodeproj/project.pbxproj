@@ -19,6 +19,7 @@
 		7A24B00F188052D600C15A89 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A24B00E188052D600C15A89 /* StoreKit.framework */; };
 		7A24B011188052DF00C15A89 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A24B010188052DF00C15A89 /* SystemConfiguration.framework */; };
 		7A24B014188057EB00C15A89 /* LDHerReasonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A24B013188057EB00C15A89 /* LDHerReasonsViewController.m */; };
+		7A2D41C3188372DE005507A3 /* pink+blue_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A2D41C2188372DE005507A3 /* pink+blue_background.png */; };
 		7A5A4B0D187F7C1B007AFFA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5A4B0C187F7C1B007AFFA3 /* Foundation.framework */; };
 		7A5A4B0F187F7C1B007AFFA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5A4B0E187F7C1B007AFFA3 /* CoreGraphics.framework */; };
 		7A5A4B11187F7C1B007AFFA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5A4B10187F7C1B007AFFA3 /* UIKit.framework */; };
@@ -63,6 +64,7 @@
 		7A24B010188052DF00C15A89 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7A24B012188057EB00C15A89 /* LDHerReasonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDHerReasonsViewController.h; sourceTree = "<group>"; };
 		7A24B013188057EB00C15A89 /* LDHerReasonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDHerReasonsViewController.m; sourceTree = "<group>"; };
+		7A2D41C2188372DE005507A3 /* pink+blue_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink+blue_background.png"; sourceTree = "<group>"; };
 		7A5A4B09187F7C1B007AFFA3 /* Looking Down.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Looking Down.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5A4B0C187F7C1B007AFFA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A5A4B0E187F7C1B007AFFA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -197,6 +199,7 @@
 		7A5A4B13187F7C1B007AFFA3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7A2D41C2188372DE005507A3 /* pink+blue_background.png */,
 				7A5A4B14187F7C1B007AFFA3 /* Looking Down-Info.plist */,
 				7A5A4B15187F7C1B007AFFA3 /* InfoPlist.strings */,
 				7A5A4B18187F7C1B007AFFA3 /* main.m */,
@@ -290,6 +293,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Lost in Flight Studios";
 				TargetAttributes = {
+					7A5A4B08187F7C1B007AFFA3 = {
+						DevelopmentTeam = 4KG26Y879R;
+					};
 					7A5A4B29187F7C1B007AFFA3 = {
 						TestTargetID = 7A5A4B08187F7C1B007AFFA3;
 					};
@@ -322,6 +328,7 @@
 				7AD0822218830DF6000AFC00 /* ExpandingCell.xib in Resources */,
 				7A5A4B25187F7C1B007AFFA3 /* Images.xcassets in Resources */,
 				7A5A4B17187F7C1B007AFFA3 /* InfoPlist.strings in Resources */,
+				7A2D41C3188372DE005507A3 /* pink+blue_background.png in Resources */,
 				7A5A4B20187F7C1B007AFFA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +514,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Hephaestus/apps/downloaded_libs/iOS,
@@ -520,6 +529,7 @@
 					CoreGraphics,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -530,6 +540,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Hephaestus/apps/downloaded_libs/iOS,
@@ -543,6 +555,7 @@
 					CoreGraphics,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
