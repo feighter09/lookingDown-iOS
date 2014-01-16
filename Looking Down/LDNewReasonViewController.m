@@ -22,7 +22,7 @@
 - (IBAction)sendReason:(id)sender {
   [self.view endEditing:YES];
   
-  PFObject *reason = [PFObject objectWithClassName:@"HerReason"];
+  PFObject *reason = [PFObject objectWithClassName:@"HisReason"];
   reason[@"text"] = [_titleInput text];
   reason[@"longText"] = [_descriptionInput text];
   
