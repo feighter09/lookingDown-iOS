@@ -42,13 +42,7 @@ static Cell *blankCell = nil;
 #pragma mark - Table View Datasource
 
 - (void)loadReasons {
-  PFQuery *query = [PFQuery queryWithClassName:@"HerReason"];
-  [query orderByDescending:@"updatedAt"];
-  [MBProgressHUD showHUDAddedTo:self.view animated:YES];
-  [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
-    [MBProgressHUD hideHUDForView:self.view animated:YES];
-    [self setReasons:[NSMutableArray arrayWithArray:objects]];
-  }];
+  [self setReasons:[NSMutableArray arrayWithArray:@[@{@"text": @"Dummy data", @"longText": @"This is a lot of longer text to show the dynamically expanding cells. I think they're really cool. This is a lot of longer text to show the dynamically expanding cells. I think they're really cool."}, @{@"text": @"To fill", @"longText": @"This is less text for a different size."}, @{@"text": @"The rows", @"longText": @"This is less text for a different size."}, @{@"text": @"Dummy data", @"longText": @"This is less text for a different size."}, @{@"text": @"To fill", @"longText": @"This is less text for a different size."}, @{@"text": @"The rows", @"longText": @"This is less text for a different size."}, @{@"text": @"Dummy data", @"longText": @"This is less text for a different size."}, @{@"text": @"Dummy data", @"longText": @"This is less text for a different size."}]]];
 }
 
 - (void)setReasons:(NSMutableArray *)reasons {
