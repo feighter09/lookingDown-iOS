@@ -73,10 +73,8 @@ static Cell *blankCell = nil;
   Cell *cell = [[[NSBundle mainBundle] loadNibNamed:@"ExpandingCell" owner:self options:nil] objectAtIndex:0];
   [cell setIndex:indexPath.row];
   [cell.cellTitle setText:[[_reasons objectAtIndex:indexPath.row] objectForKey:@"text"]];
-  [cell setDescription:[[_reasons objectAtIndex:indexPath.row] objectForKey:@"longText"]];
-
   [cell.cellTitle setFont:[UIFont fontWithName:@"Helvetica" size:17]];
-  [cell.descriptionView setFont:[UIFont fontWithName:@"Helvetica" size:12]];
+  [cell setDescription:[[_reasons objectAtIndex:indexPath.row] objectForKey:@"longText"]];
   
   [cell setBackgroundColor:[UIColor clearColor]];
   [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
