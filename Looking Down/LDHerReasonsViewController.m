@@ -10,6 +10,7 @@
 
 #import <Parse/Parse.h>
 #import "MBProgressHUD.h"
+#import "LDUtility.h"
 
 static Cell *blankCell = nil;
 
@@ -21,6 +22,8 @@ static Cell *blankCell = nil;
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+  
+  [LDUtility initNav:self];
   
   [_reasonsTable setDataSource:self];
   [_reasonsTable setDelegate:self];

@@ -9,6 +9,7 @@
 #import "LDHisReasonsViewController.h"
 #import <Parse/Parse.h>
 #import "MBProgressHUD.h"
+#import "LDUtility.h"
 
 static Cell *blankCell = nil;
 
@@ -20,6 +21,8 @@ static Cell *blankCell = nil;
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+  
+  [LDUtility initNav:self];
   
   [_reasonsTable setDataSource:self];
   [_reasonsTable setDelegate:self];
@@ -71,11 +74,13 @@ static Cell *blankCell = nil;
   [cell setIndex:indexPath.row];
   [cell.cellTitle setText:[[_reasons objectAtIndex:indexPath.row] objectForKey:@"text"]];
   [cell setDescription:[[_reasons objectAtIndex:indexPath.row] objectForKey:@"longText"]];
+
+  [cell.cellTitle setFont:[UIFont fontWithName:@"Helvetica" size:17]];
+  [cell.descriptionView setFont:[UIFont fontWithName:@"Helvetica" size:12]];
   
-//  [cell setBackgroundColor:[UIColor clearColor]];
-  cell.backgroundColor = [UIColor clearColor];
+  [cell setBackgroundColor:[UIColor clearColor]];
   [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
-  
+
   return cell;
 }
 

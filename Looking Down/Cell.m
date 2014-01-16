@@ -39,7 +39,6 @@
 }
 
 - (void)setDescription:(NSString *)description {
-//  _description = description;
   [_descriptionView setText:description];
   [_descriptionView sizeToFit];
 }

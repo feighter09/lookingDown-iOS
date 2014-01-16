@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		16C42930E5134A4EA0CB8BAC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C1263390F54B97BC22DF4E /* libPods.a */; };
+		7A1DBFE618863B22003C16BF /* maleTabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1DBFE518863B22003C16BF /* maleTabBar.png */; };
+		7A1DBFE818863BB3003C16BF /* femaleTabBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A1DBFE718863BB3003C16BF /* femaleTabBar.png */; };
 		7A24AFFF187FD76D00C15A89 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A24AFFE187FD76D00C15A89 /* Parse.framework */; };
 		7A24B0011880529600C15A89 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A24B0001880529600C15A89 /* AudioToolbox.framework */; };
 		7A24B0031880529C00C15A89 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A24B0021880529C00C15A89 /* CFNetwork.framework */; };
@@ -34,6 +36,8 @@
 		7A5A4B36187F7C1B007AFFA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A5A4B34187F7C1B007AFFA3 /* InfoPlist.strings */; };
 		7A5A4B38187F7C1B007AFFA3 /* Looking_DownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A4B37187F7C1B007AFFA3 /* Looking_DownTests.m */; };
 		7A5A4B44187FAF4D007AFFA3 /* LDHisReasonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5A4B43187FAF4D007AFFA3 /* LDHisReasonsViewController.m */; };
+		7A6EAEA0188780B800B14814 /* titleBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A6EAE9F188780B800B14814 /* titleBar.png */; };
+		7A6EAEA31887810800B14814 /* LDUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6EAEA21887810800B14814 /* LDUtility.m */; };
 		7AD0821B18808198000AFC00 /* LDNewReasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD0821A18808198000AFC00 /* LDNewReasonViewController.m */; };
 		7AD0822118830DF6000AFC00 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD0821D18830DF6000AFC00 /* Cell.m */; };
 		7AD0822218830DF6000AFC00 /* ExpandingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD0821E18830DF6000AFC00 /* ExpandingCell.xib */; };
@@ -52,6 +56,8 @@
 /* Begin PBXFileReference section */
 		15B74E91F3B44207A4D1CC97 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		62C1263390F54B97BC22DF4E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1DBFE518863B22003C16BF /* maleTabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maleTabBar.png; sourceTree = "<group>"; };
+		7A1DBFE718863BB3003C16BF /* femaleTabBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = femaleTabBar.png; sourceTree = "<group>"; };
 		7A24AFFE187FD76D00C15A89 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		7A24B0001880529600C15A89 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7A24B0021880529C00C15A89 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -84,6 +90,9 @@
 		7A5A4B37187F7C1B007AFFA3 /* Looking_DownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Looking_DownTests.m; sourceTree = "<group>"; };
 		7A5A4B42187FAF4D007AFFA3 /* LDHisReasonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDHisReasonsViewController.h; sourceTree = "<group>"; };
 		7A5A4B43187FAF4D007AFFA3 /* LDHisReasonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDHisReasonsViewController.m; sourceTree = "<group>"; };
+		7A6EAE9F188780B800B14814 /* titleBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleBar.png; sourceTree = "<group>"; };
+		7A6EAEA11887810800B14814 /* LDUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDUtility.h; sourceTree = "<group>"; };
+		7A6EAEA21887810800B14814 /* LDUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDUtility.m; sourceTree = "<group>"; };
 		7AD0821918808198000AFC00 /* LDNewReasonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDNewReasonViewController.h; sourceTree = "<group>"; };
 		7AD0821A18808198000AFC00 /* LDNewReasonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDNewReasonViewController.m; sourceTree = "<group>"; };
 		7AD0821C18830DF6000AFC00 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
@@ -199,6 +208,9 @@
 		7A5A4B13187F7C1B007AFFA3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7A6EAE9F188780B800B14814 /* titleBar.png */,
+				7A1DBFE718863BB3003C16BF /* femaleTabBar.png */,
+				7A1DBFE518863B22003C16BF /* maleTabBar.png */,
 				7A2D41C2188372DE005507A3 /* pink+blue_background.png */,
 				7A5A4B14187F7C1B007AFFA3 /* Looking Down-Info.plist */,
 				7A5A4B15187F7C1B007AFFA3 /* InfoPlist.strings */,
@@ -229,6 +241,8 @@
 		7A5A4B45187FAFA9007AFFA3 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				7A6EAEA11887810800B14814 /* LDUtility.h */,
+				7A6EAEA21887810800B14814 /* LDUtility.m */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -327,8 +341,11 @@
 			files = (
 				7AD0822218830DF6000AFC00 /* ExpandingCell.xib in Resources */,
 				7A5A4B25187F7C1B007AFFA3 /* Images.xcassets in Resources */,
+				7A1DBFE818863BB3003C16BF /* femaleTabBar.png in Resources */,
+				7A1DBFE618863B22003C16BF /* maleTabBar.png in Resources */,
 				7A5A4B17187F7C1B007AFFA3 /* InfoPlist.strings in Resources */,
 				7A2D41C3188372DE005507A3 /* pink+blue_background.png in Resources */,
+				7A6EAEA0188780B800B14814 /* titleBar.png in Resources */,
 				7A5A4B20187F7C1B007AFFA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A5A4B1D187F7C1B007AFFA3 /* LDAppDelegate.m in Sources */,
+				7A6EAEA31887810800B14814 /* LDUtility.m in Sources */,
 				7A24B014188057EB00C15A89 /* LDHerReasonsViewController.m in Sources */,
 				7A5A4B44187FAF4D007AFFA3 /* LDHisReasonsViewController.m in Sources */,
 				7AD0821B18808198000AFC00 /* LDNewReasonViewController.m in Sources */,

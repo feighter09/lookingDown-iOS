@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
-        <!--His Reasons View Controller - What I like about you-->
+        <!--His Reasons View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="LDHisReasonsViewController" sceneMemberID="viewController">
@@ -25,7 +25,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="G3B-TL-UoR">
-                                <rect key="frame" x="0.0" y="111" width="320" height="437"/>
+                                <rect key="frame" x="0.0" y="111" width="320" height="398"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -63,7 +63,7 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="What I like about you" id="1rx-18-OEO">
+                    <navigationItem key="navigationItem" id="1rx-18-OEO">
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="gha-lj-efA">
                             <connections>
                                 <action selector="refresh:" destination="vXZ-lx-hvc" id="Hug-UN-qGg"/>
@@ -98,11 +98,11 @@
             </objects>
             <point key="canvasLocation" x="320" y="108"/>
         </scene>
-        <!--Navigation Controller - Me-->
+        <!--Navigation Controller - Austin-->
         <scene sceneID="QuG-Mi-RZO">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f0Q-bN-8iu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Me" id="bBy-Tw-9Qq"/>
+                    <tabBarItem key="tabBarItem" title="Austin" image="maleTabBar.png" id="bBy-Tw-9Qq"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wl8-Vo-Lwo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -118,11 +118,11 @@
             </objects>
             <point key="canvasLocation" x="846" y="-231"/>
         </scene>
-        <!--Navigation Controller - You-->
+        <!--Navigation Controller - Cassie-->
         <scene sceneID="31D-X4-27J">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="em5-Gq-fRY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="You" id="Zlw-SZ-Xs5">
+                    <tabBarItem key="tabBarItem" title="Cassie" image="femaleTabBar.png" id="Zlw-SZ-Xs5">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -204,7 +204,7 @@
             </objects>
             <point key="canvasLocation" x="1884" y="447"/>
         </scene>
-        <!--Her Reasons View Controller - What I like about you-->
+        <!--Her Reasons View Controller-->
         <scene sceneID="PoQ-MU-VFE">
             <objects>
                 <viewController id="6Cd-Qm-Ed1" customClass="LDHerReasonsViewController" sceneMemberID="viewController">
@@ -219,12 +219,12 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is what you like about me =)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tuf-Ng-5Q3">
                                 <rect key="frame" x="20" y="82" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Onp-N0-KUj">
-                                <rect key="frame" x="0.0" y="111" width="320" height="399"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Onp-N0-KUj">
+                                <rect key="frame" x="0.0" y="111" width="320" height="366"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -257,8 +257,8 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lpx-Ti-A8L">
-                                <rect key="frame" x="125" y="469" width="71" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lpx-Ti-A8L">
+                                <rect key="frame" x="125" y="485" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Make One">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -269,8 +269,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lpx-Ti-A8L" firstAttribute="top" secondItem="Onp-N0-KUj" secondAttribute="bottom" constant="8" id="Pbs-9m-Rjw"/>
+                            <constraint firstItem="d4J-Qc-VLj" firstAttribute="top" secondItem="Lpx-Ti-A8L" secondAttribute="bottom" constant="4" id="dJO-P7-pjw"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="What I like about you" id="xSJ-Ia-3X2">
+                    <navigationItem key="navigationItem" id="xSJ-Ia-3X2">
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="1xP-K0-Cne">
                             <connections>
                                 <action selector="refresh:" destination="6Cd-Qm-Ed1" id="tll-8l-By2"/>
@@ -286,6 +290,10 @@
             <point key="canvasLocation" x="1372" y="447"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="femaleTabBar.png" width="40" height="41"/>
+        <image name="maleTabBar.png" width="40" height="40"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
