@@ -44,6 +44,7 @@ static Cell *blankCell = nil;
 
 - (void)loadReasons {
   PFQuery *query = [PFQuery queryWithClassName:@"HisReason"];
+  [query orderByDescending:@"updatedAt"];
   [MBProgressHUD showHUDAddedTo:self.view animated:YES];
   [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
     [MBProgressHUD hideHUDForView:self.view animated:YES];
